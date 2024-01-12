@@ -116,7 +116,21 @@
     color: #ffffff;
 }
 
-
+@media (min-width:568px) and (max-width:992px) {
+    .first-section .mycol-first-section {
+        width: 100%;
+        padding: 30px;
+    } 
+}
+@media (max-width:567px) {
+    .first-section .mycol-first-section {
+        width: 100%;
+        padding: 30px;
+    }
+    .first-section .mycol-first-section h1{
+    font-size: 1rem;
+    }
+}
 /*-------------------------------------THIRD section  & FOURTH section*/
 
 /* ROW > third-section  */
